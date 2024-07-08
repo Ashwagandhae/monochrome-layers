@@ -2,7 +2,7 @@
 
 Create layers of single-color pixel grids that approximate an image
 
-```bash
+```
 Usage: image-squares [OPTIONS] --input-file <INPUT_FILE>
 
 Options:
