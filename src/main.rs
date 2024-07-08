@@ -95,7 +95,7 @@ fn main() {
     let output_dir = args.output_dir.clone();
 
     fs::create_dir_all(&output_dir).unwrap();
-    img.save(format!("{}/input.jpg", output_dir)).unwrap();
+    img.save(format!("{}/processed.jpg", output_dir)).unwrap();
 
     let mut layer_img = RgbImage::new(img.width(), img.height());
     let mut grids = Vec::new();
